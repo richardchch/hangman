@@ -9,13 +9,13 @@
 
 ## Project Description
 
-### What It Does
+### Project Objective
 This Python-based implementation of the classic word guessing game, Hangman, challenges players to guess a secret word by suggesting letters within a limited number of guesses. Each incorrect guess results in a loss of a life, with the game ending when the player runs out of lives or successfully guesses the word.
 
-### Aim of the Project
+### Project Aim 
 The project aims to provide an interactive way to play Hangman through the command line. It's designed to help beginners understand basic programming concepts such as loops, conditionals, lists, and string manipulation.
 
-### What I Learned
+### Insights Gained
 Developing this game helped me learn:
 - **Control Structures**: Using loops and conditionals to manage game flow.
 - **Data Structures**: Utilizing lists and strings to store game data.
@@ -32,13 +32,16 @@ After installing Python, download the game code to your local machine. No additi
 
 To start playing the game, navigate to the directory containing the game script and run:
 
-```bash
-python hangman.py
+`python hangman.py`
 
-hangman-game/
-│
-├── hangman.py        # Main game script containing the Hangman class and play_game function
-└── README.md         # This file
+---
 
-You can simply copy and paste this content into a file named `README.md` in your project directory. This README will serve as a helpful guide for users and contributors to understand and interact with your Hangman game project effectively.
+## File Structure
+
+`hangman-game/`
+ ├── `hangman.py`        # Main game script containing the Hangman class and play_game function
+ └── `README.md`         # This file
+
+
+
 
